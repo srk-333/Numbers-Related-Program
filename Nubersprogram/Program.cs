@@ -11,6 +11,7 @@ namespace Nubersprogram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Numbers Related Program");
+            UserStringChange.userInput();
             Console.ReadLine();
         }
     }
