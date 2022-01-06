@@ -11,10 +11,11 @@ namespace Nubersprogram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Numbers Related Program");
-            UserStringChange.userInput();
-            FlipCoin.CoinFlip();
-            Factors.FactorOfNumber();
-            HarmonicNumber.PrintHarmonicNumber();
+            UserStringChange.userInput(); //calling static method of UserStringChange Class
+            FlipCoin.CoinFlip();  //calling static method of CoinFlipass
+            Factors.FactorOfNumber();  //calling static method of Factors class
+            HarmonicNumber.PrintHarmonicNumber();  //calling static method of HarmonicNumber class
+            PowerOfTwo.GetPowerOfTwo();  //calling static method of PowerOfTwo class
             Console.ReadLine();
         }
     }
