@@ -13,6 +13,7 @@ namespace Nubersprogram
             Console.WriteLine("Welcome to Numbers Related Program");
             UserStringChange.userInput();
             FlipCoin.CoinFlip();
+            Factors.FactorOfNumber();
             Console.ReadLine();
         }
     }
