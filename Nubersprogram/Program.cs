@@ -14,6 +14,7 @@ namespace Nubersprogram
             UserStringChange.userInput();
             FlipCoin.CoinFlip();
             Factors.FactorOfNumber();
+            HarmonicNumber.PrintHarmonicNumber();
             Console.ReadLine();
         }
     }
