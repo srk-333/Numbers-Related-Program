@@ -12,6 +12,7 @@ namespace Nubersprogram
         {
             Console.WriteLine("Welcome to Numbers Related Program");
             UserStringChange.userInput();
+            FlipCoin.CoinFlip();
             Console.ReadLine();
         }
     }
