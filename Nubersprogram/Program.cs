@@ -15,7 +15,7 @@ namespace Nubersprogram
             FlipCoin.CoinFlip();  //calling static method of CoinFlipass
             Factors.FactorOfNumber();  //calling static method of Factors class
             HarmonicNumber.PrintHarmonicNumber();  //calling static method of HarmonicNumber class
-            PowerOfTwo.GetPowerOfTwo();  //calling static method of PowerOfTwo class
+            PowerOfTwo.GetPowerOfTwo();  //calling static method of PowerOfTwo class 
             Console.ReadLine();
         }
     }

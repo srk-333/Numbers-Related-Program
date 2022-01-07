@@ -11,7 +11,7 @@ namespace Nubersprogram
         public static void userInput()
         {
             Console.WriteLine("Enter your username");
-            String Name = Console.ReadLine();
+            String Name= Console.ReadLine();
 
             if (Name.Length >= 3)
             {
