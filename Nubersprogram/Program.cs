@@ -16,6 +16,7 @@ namespace Nubersprogram
             Factors.FactorOfNumber();  //calling static method of Factors class
             HarmonicNumber.PrintHarmonicNumber();  //calling static method of HarmonicNumber class
             PowerOfTwo.GetPowerOfTwo();  //calling static method of PowerOfTwo class 
+            SwapTwonumbers.SwapNumbers(); // calling static method of SwapTwonumbers class
             Console.ReadLine();
         }
     }
