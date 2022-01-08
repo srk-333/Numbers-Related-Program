@@ -14,14 +14,18 @@ namespace Nubersprogram
             int number=Convert.ToInt32(Console.ReadLine());
 
             double harmonicSum = 0.0;
-            for (int count = 0; count <= number; count++)
+            if (number == 0)
             {
-                if (count == 0)
-                    Console.WriteLine("please enter positive number");
-                else
-                  harmonicSum += 1 /(float) count;
+                Console.WriteLine("please enter positive number");
             }
-            Console.WriteLine("harmonic Number is: " +harmonicSum);
+            else
+            {
+                for (int count = 1; count <= number; count++)
+                {
+                    harmonicSum += 1 / (float)count;
+                }
+                Console.WriteLine("harmonic Number is: " + harmonicSum);
+            }           
         }
     }
 }
