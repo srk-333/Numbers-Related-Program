@@ -21,6 +21,7 @@ namespace Nubersprogram
             SwapTwonumbers.SwapNumbers();
             LeapYear.FindLeapYear();
             AlphabetCheck.VowelCheck();
+            EvenOddCheck.OddEvenCheck();
             Console.ReadLine();
         }
     }
