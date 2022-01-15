@@ -11,12 +11,15 @@ namespace Nubersprogram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Numbers Related Program");
-            UserStringChange.userInput(); //calling static method of UserStringChange Class
-            FlipCoin.CoinFlip();  //calling static method of CoinFlipass
-            Factors.FactorOfNumber();  //calling static method of Factors class
-            HarmonicNumber.PrintHarmonicNumber();  //calling static method of HarmonicNumber class
-            PowerOfTwo.GetPowerOfTwo();  //calling static method of PowerOfTwo class 
-            SwapTwonumbers.SwapNumbers(); // calling static method of SwapTwonumbers class
+
+            //calling static Method of all the classes created in this project.
+            UserStringChange.userInput();
+            FlipCoin.CoinFlip();
+            Factors.FactorOfNumber();
+            HarmonicNumber.PrintHarmonicNumber();
+            PowerOfTwo.GetPowerOfTwo();
+            SwapTwonumbers.SwapNumbers();
+            LeapYear.FindLeapYear();
             Console.ReadLine();
         }
     }
