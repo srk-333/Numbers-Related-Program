@@ -24,6 +24,7 @@ namespace Nubersprogram
             EvenOddCheck.OddEvenCheck();
             LargestNumber.CheckLargestNumber();
             ComputeQuotientRemainder.QuotienRemainder();
+            FibonacciSeries.FabSeries();
             Console.ReadLine();
         }
     }

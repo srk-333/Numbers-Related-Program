@@ -47,6 +47,7 @@
     <Compile Include="ComputeQuotientRemainder.cs" />
     <Compile Include="EvenOddCheck.cs" />
     <Compile Include="Factors.cs" />
+    <Compile Include="FibonacciSeries.cs" />
     <Compile Include="FlipCoin.cs" />
     <Compile Include="HarmonicNumber.cs" />
     <Compile Include="LargestNumber.cs" />
