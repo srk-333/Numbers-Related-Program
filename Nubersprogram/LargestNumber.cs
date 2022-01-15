@@ -21,18 +21,18 @@ namespace Nubersprogram
             Console.WriteLine("Enter third number");
             int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
-            //condition
+            //conditions to get Largest Number
             if (firstNumber > secondNumber && firstNumber > thirdNumber)
             {
-                Console.WriteLine("First number: "+firstNumber + " is the Largest number in all three numbers");
+                Console.WriteLine("Largest number is: "+firstNumber);
             }
             else if (secondNumber > firstNumber && secondNumber > thirdNumber)
             {
-                Console.WriteLine("Second number: " + secondNumber + " is the Largest number in all three numbers");
+                Console.WriteLine("Largest number is: " + secondNumber);
             }
             else
             {
-                Console.WriteLine("Third number: " + thirdNumber + " is the Largest number in all three numbers");
+                Console.WriteLine("Largest number is: " + thirdNumber);
             }
         }
     }
