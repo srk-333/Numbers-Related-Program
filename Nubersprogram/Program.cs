@@ -13,15 +13,16 @@ namespace Nubersprogram
             Console.WriteLine("Welcome to Numbers Related Program");
 
             //calling static Method of all the classes created in this project.
-            UserStringChange.userInput();
-            FlipCoin.CoinFlip();
-            Factors.FactorOfNumber();
-            HarmonicNumber.PrintHarmonicNumber();
-            PowerOfTwo.GetPowerOfTwo();
-            SwapTwonumbers.SwapNumbers();
-            LeapYear.FindLeapYear();
-            AlphabetCheck.VowelCheck();
-            EvenOddCheck.OddEvenCheck();
+            //UserStringChange.userInput();
+            //FlipCoin.CoinFlip();
+            //Factors.FactorOfNumber();
+            //HarmonicNumber.PrintHarmonicNumber();
+            //PowerOfTwo.GetPowerOfTwo();
+            //SwapTwonumbers.SwapNumbers();
+            //LeapYear.FindLeapYear();
+            //AlphabetCheck.VowelCheck();
+            //EvenOddCheck.OddEvenCheck();
+            LargestNumber.CheckLargestNumber();
             Console.ReadLine();
         }
     }
