@@ -16,14 +16,14 @@ namespace Nubersprogram
         {
             //Taking number from user.
             Console.WriteLine("Enter number to reverse");
-            int Number = Convert.ToInt32(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
             int reverse = 0;    //Local Variable to store reverse number.
             //checking codition then repeating loop to get reverse number.
-            while (Number > 0)
+            while (number > 0)
             {
-                int reminder = Number % 10;             //remainder using modules (example- 123 % 10 = 3)
+                int reminder = number % 10;             //remainder using modules (example- 123 % 10 = 3)
                 reverse = (reverse * 10) + reminder;   //reversing number using formula.
-                Number /= 10;                         //dividing number to get new number from original number.
+                number /= 10;                         //dividing number to get new number from original number.
             }
             Console.WriteLine("Reverse number is: "+reverse);
         }
