@@ -28,6 +28,7 @@ namespace Nubersprogram
             ReverseNumber.RevNumber();
             PerfectNumber.GetPerfectNumber();
             PrimeNumber.UserInput();
+            Temperature.TemperatureConversion();
             Console.ReadLine();
         }
     }
