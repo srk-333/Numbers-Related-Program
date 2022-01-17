@@ -26,6 +26,7 @@ namespace Nubersprogram
             ComputeQuotientRemainder.QuotienRemainder();
             FibonacciSeries.FabSeries();
             ReverseNumber.RevNumber();
+            PerfectNumber.GetPerfectNumber();
             Console.ReadLine();
         }
     }
