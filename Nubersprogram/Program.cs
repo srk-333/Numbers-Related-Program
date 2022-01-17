@@ -27,6 +27,7 @@ namespace Nubersprogram
             FibonacciSeries.FabSeries();
             ReverseNumber.RevNumber();
             PerfectNumber.GetPerfectNumber();
+            PrimeNumber.UserInput();
             Console.ReadLine();
         }
     }

@@ -54,6 +54,7 @@
     <Compile Include="LeapYear.cs" />
     <Compile Include="PerfectNumber.cs" />
     <Compile Include="PowerOfTwo.cs" />
+    <Compile Include="PrimeNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseNumber.cs" />
