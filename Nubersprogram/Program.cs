@@ -29,6 +29,7 @@ namespace Nubersprogram
             PerfectNumber.GetPerfectNumber();
             PrimeNumber.UserInput();
             Temperature.TemperatureConversion();
+            SquareRoot.Sqrt();
             Console.ReadLine();
         }
     }
