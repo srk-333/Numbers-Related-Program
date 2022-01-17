@@ -25,6 +25,7 @@ namespace Nubersprogram
             LargestNumber.CheckLargestNumber();
             ComputeQuotientRemainder.QuotienRemainder();
             FibonacciSeries.FabSeries();
+            ReverseNumber.RevNumber();
             Console.ReadLine();
         }
     }
