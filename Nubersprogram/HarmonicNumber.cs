@@ -12,14 +12,15 @@ namespace Nubersprogram
         {
             Console.WriteLine("Enter a number to print Harmonic Number");
             int number=Convert.ToInt32(Console.ReadLine());
-
             double harmonicSum = 0.0;
-            if (number == 0)
+            //check negative number
+            if (number != 0)
             {
                 Console.WriteLine("please enter positive number");
             }
             else
             {
+                //loop to get all harmonic number sum.
                 for (int count = 1; count <= number; count++)
                 {
                     harmonicSum += 1 / (float)count;
