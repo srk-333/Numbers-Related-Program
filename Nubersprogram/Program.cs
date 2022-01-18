@@ -30,6 +30,7 @@ namespace Nubersprogram
             PrimeNumber.UserInput();
             Temperature.TemperatureConversion();
             SquareRoot.Sqrt();
+            MonthlyPayment.Payment();
             Console.ReadLine();
         }
     }

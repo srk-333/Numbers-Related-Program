@@ -52,6 +52,7 @@
     <Compile Include="HarmonicNumber.cs" />
     <Compile Include="LargestNumber.cs" />
     <Compile Include="LeapYear.cs" />
+    <Compile Include="MonthlyPayment.cs" />
     <Compile Include="PerfectNumber.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="PrimeNumber.cs" />
