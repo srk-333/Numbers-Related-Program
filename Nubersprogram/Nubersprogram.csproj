@@ -46,6 +46,7 @@
     <Compile Include="AlphabetCheck.cs" />
     <Compile Include="ComputeQuotientRemainder.cs" />
     <Compile Include="CouponNumbers.cs" />
+    <Compile Include="DayOfWeek.cs" />
     <Compile Include="EvenOddCheck.cs" />
     <Compile Include="Factors.cs" />
     <Compile Include="FibonacciSeries.cs" />

@@ -29,6 +29,7 @@ namespace Nubersprogram
                 Console.WriteLine("6=SwapTwoNumbers, 7=LeapYear, 8=AlphabetCheck, 9=EvenOddCheck, 10=LargestNumber");
                 Console.WriteLine("11=FibonacciSeries, 12=ReverseNumber, 13=PerfectNumber, 14=PrimeNumber, 15=SquareRoot");
                 Console.WriteLine("16=MonthlyPayment, 17=TemperatureConversion, 18=QuotientRemainder, 19=CouponNumbrs, 20=StopWatch");
+                Console.WriteLine("21=DayOfWeek");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -86,14 +87,44 @@ namespace Nubersprogram
                     case 18:
                         ComputeQuotientRemainder.QuotienRemainder();
                         break;
-                    case 19:
+                    case 19:                        
                         CouponNumbers couponNumbers = new CouponNumbers();
                         int count = couponNumbers.GenerateDistinct();
-                        Console.WriteLine("NO of Distinct Coupons Generated: "+count);                      
-                        break;
+                        Console.WriteLine("NO of Distinct Coupons Generated: " + count);
+                        break;                       
                     case 20:
                         StopWatch.ElapsedTime();
                         break;
+                    case 21:
+                        {
+                            DayOfWeek dayOfWeek = new DayOfWeek();
+                            int day = dayOfWeek.Day();
+                            switch (day)
+                            {
+                                case 0:
+                                    Console.WriteLine("Day is Sunday");
+                                    break;
+                                case 1:
+                                    Console.WriteLine("Day is Monday");
+                                    break;
+                                case 2:
+                                    Console.WriteLine("Day is Tuesday");
+                                    break;
+                                case 3:
+                                    Console.WriteLine("Day is Wednesday");
+                                    break;
+                                case 4:
+                                    Console.WriteLine("Day is Thursday");
+                                    break;
+                                case 5:
+                                    Console.WriteLine("Day is Friday");
+                                    break;
+                                case 6:
+                                    Console.WriteLine("Day is Saturday");
+                                    break;
+                            }
+                            break;
+                        }
                     default:
                         CONTINUE = false;
                         break;
