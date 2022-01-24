@@ -24,10 +24,11 @@ namespace Nubersprogram
             while (CONTINUE)
             {
                 Console.WriteLine("Enter your Choice");
+                Console.WriteLine("0=Exit Program");
                 Console.WriteLine("1=UserStringChange, 2=FlipCoin, 3=Factors, 4=HarmoincNumber, 5=PowerOfTwo");
                 Console.WriteLine("6=SwapTwoNumbers, 7=LeapYear, 8=AlphabetCheck, 9=EvenOddCheck, 10=LargestNumber");
                 Console.WriteLine("11=FibonacciSeries, 12=ReverseNumber, 13=PerfectNumber, 14=PrimeNumber, 15=SquareRoot");
-                Console.WriteLine("16=MonthlyPayment, 17=TemperatureConversion, 18=QuotientRemainder, 19=CouponNumbrs, 0=Exit");
+                Console.WriteLine("16=MonthlyPayment, 17=TemperatureConversion, 18=QuotientRemainder, 19=CouponNumbrs, 20=StopWatch");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -89,6 +90,9 @@ namespace Nubersprogram
                         CouponNumbers couponNumbers = new CouponNumbers();
                         int count = couponNumbers.GenerateDistinct();
                         Console.WriteLine("NO of Distinct Coupons Generated: "+count);                      
+                        break;
+                    case 20:
+                        StopWatch.ElapsedTime();
                         break;
                     default:
                         CONTINUE = false;

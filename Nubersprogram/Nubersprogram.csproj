@@ -61,6 +61,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseNumber.cs" />
     <Compile Include="SquareRoot.cs" />
+    <Compile Include="StopWatch.cs" />
     <Compile Include="SwapTwonumbers.cs" />
     <Compile Include="Temperature.cs" />
     <Compile Include="UserStringChange.cs" />
