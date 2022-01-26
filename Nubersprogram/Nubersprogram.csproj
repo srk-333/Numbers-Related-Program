@@ -65,6 +65,7 @@
     <Compile Include="StopWatch.cs" />
     <Compile Include="SwapTwonumbers.cs" />
     <Compile Include="Temperature.cs" />
+    <Compile Include="ToBinary.cs" />
     <Compile Include="UserStringChange.cs" />
     <Compile Include="VendingMachine.cs" />
   </ItemGroup>
