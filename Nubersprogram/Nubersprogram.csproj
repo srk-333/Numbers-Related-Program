@@ -66,6 +66,7 @@
     <Compile Include="SwapTwonumbers.cs" />
     <Compile Include="Temperature.cs" />
     <Compile Include="UserStringChange.cs" />
+    <Compile Include="VendingMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

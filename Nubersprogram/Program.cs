@@ -29,7 +29,7 @@ namespace Nubersprogram
                 Console.WriteLine("6=SwapTwoNumbers, 7=LeapYear, 8=AlphabetCheck, 9=EvenOddCheck, 10=LargestNumber");
                 Console.WriteLine("11=FibonacciSeries, 12=ReverseNumber, 13=PerfectNumber, 14=PrimeNumber, 15=SquareRoot");
                 Console.WriteLine("16=MonthlyPayment, 17=TemperatureConversion, 18=QuotientRemainder, 19=CouponNumbrs, 20=StopWatch");
-                Console.WriteLine("21=DayOfWeek");
+                Console.WriteLine("21=DayOfWeek, 22=VendingMachine");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -125,6 +125,9 @@ namespace Nubersprogram
                             }
                             break;
                         }
+                    case 22:
+                        VendingMachine.GetChange();
+                        break;
                     default:
                         CONTINUE = false;
                         break;
